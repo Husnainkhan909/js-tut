@@ -37,3 +37,16 @@ console.log(typeof student.cgpa);
 console.log(typeof student.fullName);
 console.log(typeof student.ispass);
 console.log(typeof student.rollno);
+
+{
+    let a = 10;
+    let b = 20;
+    let sum = a + b;
+    console.log("the sum of a and b is " + sum );
+    let diff = b - a;
+     console.log("the difference of a and b is " + diff );
+     let mul = a * b;
+     console.log("the multiplication of a and b is " + mul);
+     let div = b / a;
+      console.log("the division of a and b is " + div);
+}
