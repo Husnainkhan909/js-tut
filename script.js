@@ -29,4 +29,11 @@ const student ={
     ispass : true,
 }
 console.log(student);
-console.log("student.age");
+console.log(student.age);
+
+console.log(typeof student);
+console.log(typeof student.age);
+console.log(typeof student.cgpa);
+console.log(typeof student.fullName);
+console.log(typeof student.ispass);
+console.log(typeof student.rollno);
