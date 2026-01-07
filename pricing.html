@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Critter</title>
+    <link rel="stylesheet" href="./pricing.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">critter</div>
+
+        <div class="nav-left desktop-menu">
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="nav-right desktop-menu">
+            <a href="#" class="login">Log in</a>
+            <button class="btn-primary">Start for free</button>
+        </div>
+
+        <div class="mobile-menu-btn" onclick="toggleMenu()">
+            <i class="bi bi-list"></i>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu" style="background-color: #ff5a2f;color: white;">
+        <a href="#" style="color: white;">Features</a>
+        <a href="#" style="color: white;">Pricing</a>
+        <a href="#" style="color: white;">Contact us</a>
+        <a href="#" class="login" style="color: white;">Log in</a>
+    </div>
+
+
+    <section class="hero">
+        <h1>
+            Get started completely free,<br>
+            no strings attached
+        </h1>
+
+        <button class="btn-primary hero-btn">Start for free</button>
+    </section>
+    <div class="container">
+        <!-- Left Box -->
+        <div class="box">
+            <h2>Critter Credits</h2>
+            <ul>
+                <li><i class="bi bi-check2"></i>No more monthly subscription</li>
+                <li><i class="bi bi-check2"></i>One booking equals one credit (as low as $.20)</li>
+                <li><i class="bi bi-check2"></i>Buy month to month for low initial payment</li>
+                <li><i class="bi bi-check2"></i>Buy in bulk for reduced per credit pricing</li>
+                <li><i class="bi bi-check2"></i>Free credits on account creation for testing</li>
+            </ul>
+            <button class="btn" style="margin-top: 50px;">Start for free</button>
+        </div>
+
+        <!-- Right Box -->
+        <div class="box">
+            <h2>Get started for</h2>
+            <h1>Free</h1>
+            <p>
+                Test & explore the full Critter platform completely free,
+                no commitment required. Then, buy credit packages
+                to grow your business on Critter. No subscription, pay
+                for only what you use as you go. Package details below.
+            </p>
+            <button class="btn">Pricing Calculator</button>
+        </div>
+    </div>
+    <section class="features-section">
+        <div class="features-header">
+            <h2>What's included?</h2>
+            <br>
+            <p>Access the full Critter platform with full control over your software expense.</p>
+        </div>
+
+        <div class="features-grid">
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="./op.svg" alt="Scheduling Icon" style="margin-right: 90px;">
+                </div>
+                <h3 style="margin-right: 60px;">Scheduling</h3>
+                <ul>
+                    <li><i class="bi bi-check2"></i>Calendar management</li>
+                    <li><i class="bi bi-check2"></i>Web & mobile booking</li>
+                    <li><i class="bi bi-check2"></i>Service history</li>
+                    <li><i class="bi bi-check2"></i>Employee management</li>
+                </ul>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="./op2.svg" alt="Invoicing Icon" style="margin-right: 100px;">
+                </div>
+                <h3 style="margin-right: 80px;">Invoicing</h3>
+                <ul>
+                    <li><i class="bi bi-check2"></i>Flexible invoicing</li>
+                    <li><i class="bi bi-check2"></i>In-app payments</li>
+                    <li><i class="bi bi-check2"></i>Stripe integration</li>
+                    <li><i class="bi bi-check2"></i>Automation</li>
+                </ul>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="./op3.svg" alt="Client Management Icon" style="margin-right: 100px;">
+                </div>
+                <h3>Client management</h3>
+                <ul>
+                    <li><i class="bi bi-check2"></i>Onboarding workflow</li>
+                    <li><i class="bi bi-check2"></i>In-app communications</li>
+                    <li><i class="bi bi-check2"></i>Policy and record management</li>
+                    <li><i class="bi bi-check2"></i>Care plan and instructions</li>
+                </ul>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="./op4.svg" alt="Critter Support Icon" style="margin-right: 100px;">
+                </div>
+                <h3 style="margin-right: 60px;">Critter Support</h3>
+                <ul>
+                    <li><i class="bi bi-check2"></i>White glove support</li>
+                    <li><i class="bi bi-check2"></i>Phone, email, & video access</li>
+                    <li><i class="bi bi-check2"></i>Hands-on training</li>
+                    <li><i class="bi bi-check2"></i>Onboarding support</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-section">
+        <div class="pricing-container">
+
+            <h1>Pricing for all shapes & sizes</h1>
+
+            <p class="subtitle">
+                The benefits of the Critter Credits model are many.
+            </p>
+
+            <p class="description">
+                The approach allows us to offer competitive pricing to every size business,
+                without limiting the available features in the <br> app. We won,t nickel and dime
+                you while adding part-time employees and we don,t pass fees on to your clients.
+                We give <br> you control over your software expense, whether you,re a new business
+                just getting started, a stable business with an <br> established roster of clients,
+                or an actively scaling business with grand ambitions. Pay less up front for a
+                lower month to br month expense, or buy in bulk for reduced total spend, as credits
+                never expire. The options are endless.
+            </p>
+
+            <p class="link-text">
+                Find a detailed explanation of our pricing structure and a pricing calculator at
+                <span><a href="#" style="color: #ff5a2f;"> pricing.critter.pet</a></span>.
+            </p>
+
+            <button class="cta-btn">Get started</button>
+
+        </div>
+    </section>
+    <section class="credit-pricing-section">
+        <div class="credit-container">
+
+            <h1 class="credit-title">Pricing breakdown</h1>
+
+            <p class="credit-description">
+                Critter Credits are designed to give you options: pay month to month for a lower
+                initial spend requirement or buy credits in bulk for a lower per booking price and
+                lower overall expense. See our
+                <span> <a href="#">pricing calculator</a></span>
+                to map out your options and review the pricing structure in detail.
+            </p>
+
+            <p class="credit-description">
+                Enterprise pricing available for larger businesses, reach out to
+                support@critter.pet for rates.
+            </p>
+
+            <div class="credit-grid">
+
+                <div class="credit-card">
+                    <h3>25 Credits</h3>
+                    <p class="credit-price">$25 ($1/credit)</p>
+                    <p class="credit-info">
+                        Lowest package, for topping up credits when you just need a little boost.
+                    </p>
+                </div>
+
+                <div class="credit-card">
+                    <h3>150 Credits</h3>
+                    <p class="credit-price">$45 ($0.30/credit)</p>
+                    <p class="credit-info">
+                        Flexibility for affordable software. Credits do not expire and roll over
+                        month to month.
+                    </p>
+                </div>
+
+                <div class="credit-card">
+                    <h3>250 Credits</h3>
+                    <p class="credit-price">$65 ($0.26/credit)</p>
+                    <p class="credit-info">
+                        Manage your growing business and software expense with a competitive
+                        per booking cost.
+                    </p>
+                </div>
+
+                <div class="credit-card">
+                    <h3>500 Credits</h3>
+                    <p class="credit-price">$110 ($0.22/credit)</p>
+                    <p class="credit-info">
+                        Our largest package (except tailored enterprise pricing). Lowest overall cost.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="ref-section">
+        <div class="ref-cont">
+
+            <h2 class="ref-title">Refer and be rewarded</h2>
+
+            <p class="ref-text">
+                Become a Critter ambassador, sharing your experience with the platform and referring
+                friends, coworkers, and colleagues. For each referral who signs up and becomes a paid
+                business user, receive 50 credits free. Simply reach out to support@critter.pet
+                to let us know who you referred.
+            </p>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <h1>Get started in seconds</h1>
+
+            <div class="footer-buttons">
+                <a href="#" class="link-btn">Request demo</a>
+                <a href="#" class="primary-btn">Start for free</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-left">
+                <div class="logo"><img src="./footer-logo.svg" alt="logo"></div>
+                <nav>
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">See all apps</a>
+                </nav>
+            </div>
+
+            <div class="footer-right">
+                2024 Critter Care, Inc
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("mobileMenu");
+            if (menu.style.display === "flex") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "flex";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
