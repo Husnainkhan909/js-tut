@@ -62,3 +62,22 @@ console.log(typeof student.rollno);
     let decrement = x --;
     console.log("the decrement of x and y is " + decrement);
  };
+
+
+
+ {
+    let a = 5;
+    let b = 10;
+
+    a += 7;
+    console.log("the value of a after += is " + a);
+
+    b -= 3;
+    console.log("the value of b after -= id " + b);
+
+    a *= b;
+    console.log("the value of a after *= is " + a);
+
+    b /= 2;
+    console.log("the value of b after /= is " + b);
+ }
