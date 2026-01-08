@@ -50,3 +50,15 @@ console.log(typeof student.rollno);
      let div = b / a;
       console.log("the division of a and b is " + div);
 }
+ {
+    let x = 15;
+    let y =10;
+    let modulus = x ** y;
+    console.log("the modulus of x and y is " + modulus);
+
+    let increment = x ++;
+    console.log("the increment of x and y is " + increment);
+
+    let decrement = x --;
+    console.log("the decrement of x and y is " + decrement);
+ };
